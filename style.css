@@ -80,12 +80,12 @@ h3{
 }
 
 .twocols h3,h4{
-    line-height: 3px;
+    line-height: 50%; /* Chaning to percentage for mobile view*/
 }
 
 #titletwocols{
     grid-area: 1 / 1 / 2 / 5;
-    line-height: 6px;
+    line-height: 50%; /* Chaning to percentage for mobile view*/
 }
 
 /* Infosecbox gives me the ability to style each box with one line of code, instead of duplicating. But remebering the heirarchy of selectors*/
