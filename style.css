@@ -81,7 +81,7 @@ h3{
     background-color: #474747;
 }
 
-.twocols h3,h4{
+.twocols h3,.twocols h4{
     line-height: 200%; /* Doubling line spacing for mobile view, I fear it'll make desktop look bad*/
 }
 
