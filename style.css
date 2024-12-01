@@ -80,12 +80,12 @@ h3{
 }
 
 .twocols h3,h4{
-    line-height: 2em; /* Doubling line spacing for mobile view, I fear it'll make desktop look bad*/
+    line-height: 200%; /* Doubling line spacing for mobile view, I fear it'll make desktop look bad*/
 }
 
 #titletwocols{
     grid-area: 1 / 1 / 2 / 5;
-    line-height: 2em;/* Doubling line spacing for mobile view, I fear it'll make desktop look bad */
+    line-height: 200%;/* Doubling line spacing for mobile view, I fear it'll make desktop look bad */
 }
 
 /* Infosecbox gives me the ability to style each box with one line of code, instead of duplicating. But remebering the heirarchy of selectors*/
