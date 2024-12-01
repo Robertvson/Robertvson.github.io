@@ -1,0 +1,170 @@
+*{
+    font-family: "Martel", sans-serif;
+    color: white;
+}
+/* Main set up for the grid  */
+
+body{
+    background-color: #333333;
+    margin: 2% 2% 2% 2%;
+}
+
+/* This container is for the two boxes at the top */
+h3{
+    text-align: center;
+}
+
+#topcont{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5% 2.5%;
+    margin-bottom: 3%;
+}
+
+.mainheader{
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 5px -5px white;
+    grid-area: 1/1/1/3;
+    text-align: center;
+    background-color: #525252;
+}
+
+.mainheader:hover{
+    animation: rot-anticlockwise 3s ease 0s infinite normal forwards;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 7px 5px -5px white;
+    grid-area: 1/1/1/3;
+    text-align: center;
+}
+
+#contact{
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 5px -5px white;
+    grid-area: 1 / 3 / 1 / 5;
+    text-align: center;
+    background-color: #525252;
+}
+
+
+#contact:hover{
+    animation: rot-clockwise 3s ease 0s infinite normal forwards;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 0px 7px 5px -5px white;
+    grid-area: 1 / 3 / 1 / 5;
+    text-align: center;
+}
+
+/* Hover animations^ */
+
+
+/* Now moving on to the information section*/
+
+#twocols{
+    border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px -5px white;
+    display: grid;
+    grid-template: 50px repeat(3, 1fr) / repeat(4, 1fr);
+    gap: 10px 5px;
+    padding: 0.5% 0.5%;
+    background-color: #474747;
+}
+
+.twocols h3,h4{
+    line-height: 3px;
+}
+
+#titletwocols{
+    grid-area: 1 / 1 / 2 / 5;
+    line-height: 6px;
+}
+
+/* Infosecbox gives me the ability to style each box with one line of code, instead of duplicating. But remebering the heirarchy of selectors*/
+
+.infosecbox h4,
+.infosecbox p{
+    text-align: center;
+}
+
+.infosecbox{
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: #525252;
+    margin-bottom: 10px;
+    padding: 5px
+}
+
+.infosecbox:hover{
+    transform: scale(1.1);
+    transition: transfrom 0.4;
+}
+
+#education{
+    grid-area: 2/1/3/3;
+}
+
+#tefl{
+    grid-area:3/1/4/3;
+}
+
+#workex{
+    grid-area:2/3/3/5;
+}
+
+#englishfreelance{
+    grid-area: 3/3/4/5;
+}
+
+#doggroom{
+    grid-area: 4/3/5/5;
+}
+
+#codeacademy{
+    grid-area: 4/1/5/3;
+}
+
+/* Portfolio section with sample websites etc */
+
+.portfolios{
+    margin-top: 30px;
+    border: 1px black solid;
+}
+
+
+/* Defs for some animations*/
+
+
+@keyframes rot-clockwise {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+  }
+
+  @keyframes rot-anticlockwise {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+  }
+  
+  
