@@ -50,7 +50,7 @@ h3{
     grid-area: 1 / 3 / 1 / 5;
     text-align: center;
     background-color: #525252;
-     
+    line-height: 200%; /*Brought in to build consistency between hover and unhovered states*/
 }
 
 
@@ -62,7 +62,7 @@ h3{
     box-shadow: 0px 5px 5px -5px white;
     grid-area: 1 / 3 / 1 / 5;
     text-align: center;
-    line-height: 200%; /* brought in to solve jittering*/
+    line-height: 200%; /* brought in to solve jittering, didn't work*/
 }
 
 /* Hover animations^ */
@@ -157,7 +157,7 @@ h3{
     }
   }
 
-  @keyframes rot-anticlockwise {
+@keyframes rot-anticlockwise {
     0% {
         transform: rotate(0deg);
     }
