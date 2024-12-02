@@ -81,6 +81,7 @@ h3{
     gap: 10px 5px;
     padding: 0.5% 0.5%;
     background-color: #474747;
+    align-items: center;
 }
 
 .twocols h3,.twocols h4{
@@ -105,7 +106,7 @@ h3{
     border-radius: 5px;
     background-color: #525252;
     margin-bottom: 10px;
-    padding: 5px
+    padding: 5px;    
 }
 
 .infosecbox:hover{
