@@ -168,7 +168,7 @@ h3{
 
 /* Responsive design for mobile phones, landscape */
 
-@media only screen and (max-width: 450px) and (max-height: 700px) and (orientation: portrait) {
+@media only screen and (max-width: 450) and (max-height: 700) and (orientation: portrait) {
 #twocols{
     border: 1px black solid;
     border-radius: 5px;
