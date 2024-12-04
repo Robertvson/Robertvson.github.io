@@ -196,7 +196,7 @@ h3{
     border-radius: 5px;
     background-color: #525252;
     margin-bottom: 10px;
-    padding: 5px;    
+    padding: 1%;    
 }
 
 .infosecbox:hover{
@@ -228,7 +228,5 @@ h3{
 #doggroom{
     grid-area: 7/1/8/2;
 }
-
-
 
 }
