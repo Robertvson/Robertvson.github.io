@@ -173,3 +173,12 @@ h3{
         transform: rotate(0deg);
     }
   }
+
+/* Responsive design for mobile phones, landscape */
+
+@media only screen and (max-width: 450px) and (max-height: 900px) and (orientation: portrait) {}
+   /* plans for resposive design: reduce the two columns to one column with expierence first, 
+   next change the margin sizes to be less and remove line spacing for an easier 
+   formatting structure. and less hacked together structure. Next prepare for an entry 
+   form with JavaScript. Afterwards do many tests and see what happens*/
+  /*TEST FKN LOCALLY BEFORE MAKING COMMITTS TO GITHUB*/
