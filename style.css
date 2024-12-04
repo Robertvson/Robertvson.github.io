@@ -172,7 +172,7 @@ h3{
 #topcont{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr; /* Don't modify */
+    grid-template-rows:auto 1fr; /* Don't modify */
     gap: 5% 2.5%;
     margin-bottom: 3%;
 }
