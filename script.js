@@ -148,32 +148,32 @@ const en = {
 // La funzione per cambiare la lingua. Ci sono solo due lingue che vale per questo sito
 
 
-let currentLanguage = 'en';
+let currentLanguage = en;
 
 // Define the translation function
 // Creare la funzione di tradizione
 const toggleTranslation = () => {
     let targetLanguage;
 
-    if (currentLanguage === 'en') {
-        targetLanguage = 'it';
+    if (currentLanguage === en) {
+        targetLanguage = it;
     } else {
-        targetLanguage = 'en';
+        targetLanguage = en;
     }
 
     document.querySelectorAll('[data-traduzione]').forEach(el => {
         const key = el.getAttribute('data-traduzione'); // Get the translation key // Prende la chiave del traduzione
-        el.textContent = translations[targetLanguage][key]; // Update the text content // Agiorna i contenuiti del testo
+        el.textContent = translations[targetLanguage][key]; // Update the text content // Aggiorna i contenuiti del testo
     });
 
-    // Update the button text using an if statement. Agiorna il testo del tasto
+    // Update the button text using an if statement. Aggiorna il testo del tasto
     if (targetLanguage === 'en') {
         document.getElementById('tradurre').textContent = 'Traduci in Italiano';
     } else {
         document.getElementById('tradurre').textContent = 'Back to English';
     }
 
-    // Update the current language // agiorna la lingua che usando adesso.
+    // Update the current language // aggiorna la lingua che usando adesso.
     currentLanguage = targetLanguage;
 };
 
