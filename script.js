@@ -135,7 +135,7 @@ const translations = {
         dogList6: "Dog welfare and health checks",
         dogList7: "To maintain a clean, safe and hygenic enviroment for working with animals",
         //Back to english
-        translateLink: "Back to English",
+        translateLink: "Traduci in Italiano",
         //Additions
     }
 };
