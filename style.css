@@ -6,7 +6,7 @@
 /* Main set up for the grid  */
 
 body {
-    background-color: #333333;
+    background-color: #003D3D;
     margin: 2% 2% 2% 2%;
 }
 
@@ -19,7 +19,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
-    gap: 5% 2.5%;
+    gap: 10px 5px;
     margin-bottom: 3%;
 }
 
@@ -89,7 +89,7 @@ h3 {
     grid-template: 80px repeat(3, 1fr) / repeat(4, 1fr);
     gap: 10px 5px;
     padding: 0.5% 0.5%;
-    background-color: #474747;
+    background-color: #005252;
     align-content: center;
 }
 
@@ -100,9 +100,14 @@ h3 {
 
 /* Infosecbox gives me the ability to style each box with one line of code, instead of duplicating. But remebering the heirarchy of selectors*/
 
-.infosecbox h4,
-.infosecbox p {
+.infosecbox h4{
     text-align: center;
+}
+
+
+
+.infosecbox p {
+    text-align: justify;
 }
 
 .infosecbox {
