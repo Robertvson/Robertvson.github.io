@@ -2,8 +2,8 @@
 const translations = {
     it:{
         aspiring: 'Aspirante sviluppatore web',
-        enTeach: 'Insegnante Inglese',
-        contactme: 'Contattarmi',
+        enTeach: 'Insegnante Di Inglese',
+        contactme: 'I miei contatti',
         telWhats: 'Telefono o WhatsApp: +447391500329',
         perIt: 'Per chiamate italiane: +393311268678',
         info: 'Informazioni',
@@ -16,7 +16,7 @@ const translations = {
         eduListI4: "Sistema del ticket e prioritizzazione",
         eduListI5: "Fondamenti di sicurezza informatica",
         eduListI6: "Bloccare le autorizzazioni per prevenire violazioni secutiy",
-        eduListI7: "Fondamenti del HTML e CSS",
+        eduListI7: "Fondamenti di HTML e CSS",
         //Heading and C1 R1 done, below C2 R1
         workExpTitle: "Esperienza",
         workExpCosa: "Insegnante di inglese e creatore di contenuti",
@@ -51,13 +51,13 @@ const translations = {
         //ETF done now Front End Engineer Cert
         cATitle: "Certificato Ingegneria Font-End",
         cADove: "CodeAcademy (in corso)",
-        cADiscorso: "Questo corso ha migliorato le mie precedenti competenze in HMTL e CSS e mi ha dato la possibilita' di fare un tentativo di irrompere nel mercato del lavoro attraverso un portfolio ben fatto. Preferisco invece fare i miei pezzi da zero che vedrete in fondo e in questa pagina web. Cose che ho imparato:",
+        cADiscorso: "Questo corso ha migliorato le mie precedenti competenze in HMTL e CSS e mi ha dato la possibilita' di fare un'espereinza lavoritiva. Per vedere i miei progetti, scorri in fondo. Cose che ho imparato:",
         cAList1: "Fondamenti di HTML e CSS",
         cAList2: "Personalizzazione avanzata con CSS",
         cAList6: "Teoria del colore, accessibilita' e HTML semantico",
         //cA done now dog grooming, the hardest to translate IMHO
         dogTitle: "Toelettatore / assistente del toelettatore",
-        dogDiscorso: "Ho lavorato in saloni di grooming per cani per 3 anni come assistente e 6 mesi come toelettatore. Sono qualificato. Ho seguito un corso intensivo di 2,5 mesi che ha coperto tutte le fasi del processo di preparazione. Ho superato il corso e ottenuto il certificato (Open College Network livello 3) Nonostante mi piaccia, non credo che sia la mia vera vocazione. Penso che i cani sono animali domestici migliori dei clienti. Ho imparato e migliorato le seguenti abilita':",
+        dogDiscorso: "Ho lavorato in una toelettatura per cani per 3 anni come assistente e 6 mesi come toelettatore. Sono qualificato. Ho seguito un corso intensivo di 2,5 mesi che ha coperto tutte le fasi del processo di preparazione. Ho superato il corso e ottenuto il certificato (Open College Network livello 3) Nonostante mi piaccia, non credo che sia la mia vera vocazione. Ho imparato e migliorato le seguenti abilita':",
         dogList1: "Toelettatura dei Cani",
         dogList2: "Taglio tradizionale e di utilita'",
         dogList3: "Servizio clienti",
