@@ -1,6 +1,6 @@
 import {motion} from 'motion/react'
 
-export default function Home() { // re-name later
+export default function Home() {
   return (
 <div className="">
   <div>
