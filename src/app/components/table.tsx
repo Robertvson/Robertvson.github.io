@@ -14,8 +14,8 @@ export default function Table() {
                     key={index}
                     className="flex flex-wrap bg-white p-6 rounded-xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow"
                 >
-                    <h1 className='text-black p-2'>{item.header}</h1>
-                    <p className="text-black p-2">{item.para}</p>
+                    <h1 className='text-black p-2 text-center'>{item.header}</h1>
+                    <p className="text-black p-2 text-center">{item.para}</p>
                 </motion.div>
             ))}
         </div>

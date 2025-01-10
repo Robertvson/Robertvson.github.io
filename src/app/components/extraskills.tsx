@@ -6,7 +6,7 @@ const extraskillsdis = [
     {name: 'Networking', icon: '/icons/plug.svg'},
     {name: 'Computer Systems', icon: '/icons/system.svg'},
     {name: 'Dog Grooming', icon:'/icons/dog.svg'},
-    {name: 'TEFL (teacing English as a foreign language)', icon: '/icons/teach.svg'}
+    {name: 'TEFL (teaching English as a foreign language)', icon: '/icons/teach.svg'}
  ]
 
 
@@ -22,7 +22,7 @@ return(
                     className=" mx-2 my-2 bg-white p-6 rounded-xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow"
                 >
                     <img alt= '' className='h-10 w-10 mx-auto' src={item.icon}/>
-                    <p className='text-black p-2'>{item.name}</p>
+                    <p className='text-black p-2 text-center'>{item.name}</p>
                 </motion.div>
             ))}
         </div>
