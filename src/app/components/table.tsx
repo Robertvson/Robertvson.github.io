@@ -8,7 +8,7 @@ export const tabulardata = [
 
 export default function Table() {
     return (
-        <div className="grid grid-flow-row mt-10 grid-cols-2 grid-rows-auto gap-2 w-3/4 mx-auto">
+        <div className="grid grid-flow-row mt-10 grid-cols-2 gap-2 w-3/4 mx-auto md:grid-cols-1 md:w-1/2 sm:grid-cols-1 sm:w-1/2">
             {tabulardata.map((item, index) => (
                 <motion.div
                     key={index}
@@ -16,7 +16,6 @@ export default function Table() {
                 >
                     <h1 className='text-black p-2'>{item.header}</h1>
                     <p className="text-black p-2">{item.para}</p>
-                    <button className='p-1 bg-blue-400 rounded-md mx-auto' onClick={() => {}}>See more</button>
                 </motion.div>
             ))}
         </div>

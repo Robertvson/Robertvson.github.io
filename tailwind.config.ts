@@ -6,7 +6,11 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {   
+  theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px'
+    }, 
     extend: {
       fontFamily: {
         montserrat: ['var(--font-Montserrat)', 'sans-serif']},
