@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 
 export const tabulardata = [
-    { header: "My First Project", para: "My first project consisted of an e-commerse site that I made with my buddy who is good with the back-end. This project was a paid project. In this project we used git to track the code and revert any mistaken commits. I did have to do this once so I am glad we used git. See the images of the styling on the right hand side."},
+    { header: "My First Project", para: "In my first project I worked with an associate to create an e-commerse site for users who would like to sell their courses. My associate is an expert in back-end systems such as logins, payments , authentication and control. I on the other hand am an expert in the layout, styles and general user expierence."},
 ];
 
 
