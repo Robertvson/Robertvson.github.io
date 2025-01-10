@@ -4,6 +4,8 @@ import Home from './components/heading';
 import Table from './components/table';
 import TechStack from "./components/techstack";
 import ExtraSkills from "./components/extraskills";
+import FooterComp from './components/footer';
+
 //imports
 
 
@@ -22,11 +24,7 @@ return(
   whileInView={{opacity: 1}}
   ><p className="text-center mx-auto my-auto text-white text-6xl">New Possibilites Await</p></motion.div>
   <ExtraSkills/>
-  <motion.div className="bg-orange-500 w-10 h-10 mx-auto mt-20 z-50"
-  ></motion.div>
-  <motion.div className="bg-orange-500 w-10 h-10 mx-auto mt-20 z-50"
-  >check</motion.div>
-
+  <FooterComp/>
 </div>
 
 </>
