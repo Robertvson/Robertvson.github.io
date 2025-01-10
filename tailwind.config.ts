@@ -9,7 +9,8 @@ export default {
   theme: {
     screens: {
       'sm': '640px',
-      'md': '768px'
+      'md': '768px',
+      'lg': '1068px'
     }, 
     extend: {
       fontFamily: {
