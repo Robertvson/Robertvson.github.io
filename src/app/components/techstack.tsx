@@ -15,13 +15,20 @@ const techstackdis = [
 export default function TechStack(){
 return(
     <>
-        <h2 className='mt-10 text-center w-full'>My skills include (but are not limited to)</h2>
+        <motion.h2 className='mt-10 text-center w-full'
+        initial={{opacity: 0}}
+        transition={{duration: 0.3, ease:'linear'}}
+        animate={{opacity: 1}}
+        >My skills include (but are not limited to)</motion.h2>
         <div className='flex flex-wrap w-1/2 justify-center mt-5 mx-auto'>
         {techstackdis.map((item, index) => (
                 <motion.div
                     key={index}
                     className="mx-2 my-2 bg-white p-6 rounded-xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow"
-                >
+                    initial={{opacity: 0}}
+                    transition={{duration: 0.3, ease:'linear'}}
+                    animate={{opacity: 1}}
+                    >
                     <img alt='' className='h-10 w-10 mx-auto' src={item.icon}/>
                     <p className='text-black p-2 text-center'>{item.name}</p>
                 </motion.div>
