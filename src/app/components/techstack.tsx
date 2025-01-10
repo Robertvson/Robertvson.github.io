@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 
 
 const techstackdis = [ 
-    {name: 'HTML', icon: '/icons/html.svg'},
+    {name: 'HTML', icon: '/icons/HTML.svg'},
     {name: 'CSS', icon: '/icons/CSS.svg'},
     {name: 'JavaScript/Typescript', icon: '/icons/JS.svg'},
     {name: 'React.js', icon:'/icons/React.svg'},
