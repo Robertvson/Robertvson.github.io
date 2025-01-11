@@ -20,7 +20,7 @@ export default function Home() {
       transition={{duration: 0.4, ease:'linear'}}
       animate={{opacity: 1}}
       
-      >Web Developer</motion.h1>
+      >Front End Developer</motion.h1>
 
 
       </div>
