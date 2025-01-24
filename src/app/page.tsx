@@ -16,7 +16,6 @@ return(
 
 <div className="w-100% h-100">
   <Home/>
-  <Table/>
   <TechStack/>
   <motion.div className= "flex bg-black w-100% h-64 z-0 mt-20"
   initial={{opacity: 0}}
