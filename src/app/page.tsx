@@ -1,7 +1,6 @@
 "use client"
 import { motion } from "motion/react";
 import Home from './components/heading';
-import Table from './components/table';
 import TechStack from "./components/techstack";
 import ExtraSkills from "./components/extraskills";
 import FooterComp from './components/footer';
