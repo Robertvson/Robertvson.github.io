@@ -19,6 +19,7 @@ export default function Table() {
                     >
                     <h1 className='mx-auto text-black p-2 text-center'>{item.header}</h1>
                     <p className="text-black p-2 text-center">{item.para}</p>
+                    <a className="text-black p-2 text-center" href='/ecommerce'>See more</a>
                 </motion.div>
             ))}
         </div>
