@@ -4,4 +4,58 @@
 
 body {
     font-family: theme('fontFamily.montserrat');
+}
+
+.custom-element1 {
+  margin-left: auto; /* mx-auto */
+  margin-right: auto; /* mx-auto */
+  font-weight: bold; /* bold */
+  font-size: 1.875rem; /* text-3xl (1.875rem = 30px) */
+  line-height: 2.25rem; /* Tailwind's text-3xl includes line-height: 2.25rem */
+  text-align: center; /* text-center */
+  width: fit-content; /* w-fit */
+  color: rgb(12, 10, 9); /* text-stone-950 (hex: #0c0a09) */
+  border-bottom-width: 2px; /* border-b-2 */
+  border-bottom-color: rgb(12, 10, 9); /* border-stone-950 (hex: #0c0a09) */
+}
+
+
+
+.custom-element {
+  margin-left: auto; /* mx-auto */
+  margin-right: auto; /* mx-auto */
+  font-weight: bold; /* bold */
+  font-size: 3rem; /* text-5xl (3rem = 48px) */
+  line-height: 1; /* Tailwind's text-5xl includes line-height: 1 */
+  text-align: center; /* text-center */
+  width: fit-content; /* w-fit */
+  color: rgb(12, 10, 9); /* text-stone-950 (hex: #0c0a09) */
+  border-bottom-width: 2px; /* border-b-2 */
+  border-bottom-color: rgb(12, 10, 9); /* border-stone-950 (hex: #0c0a09) */
+}
+
+
+
+
+@media (max-width: 720px) {
+  .custom-element {
+  font-weight: bold; /* bold */
+  font-size: 1.875rem; /* text-3xl (1.875rem = 30px) */
+  line-height: 2.25rem; /* Tailwind's text-3xl includes line-height: 2.25rem */
+  text-align: center; /* text-center */
+  width: auto; /* w-fit */
+  color: rgb(12, 10, 9); /* text-stone-950 (hex: #0c0a09) */
+  border-bottom-width: 2px; /* border-b-2 */
+  border-bottom-color: rgb(12, 10, 9); /* border-stone-950 (hex: #0c0a09) */
   }
+  .custom-element1 {
+  font-weight: bold; /* bold */
+  font-size: 1.875rem; /* text-3xl (1.875rem = 30px) */
+  line-height: 2.25rem; /* Tailwind's text-3xl includes line-height: 2.25rem */
+  text-align: center; /* text-center */
+  width: auto;
+  color: rgb(12, 10, 9); /* text-stone-950 (hex: #0c0a09) */
+  border-bottom-width: 2px; /* border-b-2 */
+  border-bottom-color: rgb(12, 10, 9); /* border-stone-950 (hex: #0c0a09) */
+  }
+}

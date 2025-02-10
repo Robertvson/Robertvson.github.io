@@ -4,10 +4,10 @@ export default function Home() {
   return (
 <div className="">
   <div>
-    <div className="flex flex-row items-center mt-3">
+    <div className="flex flex-row items-center mt-3 flex-wrap">
 
       <motion.h1
-      className="mx-auto bold text-5xl text-center w-fit text-stone-950 border-b-2 border-stone-950"
+      className="custom-element"
       initial={{opacity: 0}}
       transition={{duration: 0.3, ease:'linear'}}
       animate={{opacity: 1}}
@@ -15,7 +15,7 @@ export default function Home() {
       >Scott Mitchell Robertson </motion.h1>
 
       <motion.h1
-      className="mx-auto bold text-3xl text-center w-fit text-stone-950 border-b-2 border-stone-950"
+      className="custom-element1"
       initial={{opacity: 0}}
       transition={{duration: 0.4, ease:'linear'}}
       animate={{opacity: 1}}
