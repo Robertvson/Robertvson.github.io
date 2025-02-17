@@ -6,8 +6,6 @@ import ExtraSkills from "./components/extraskills";
 import FooterComp from './components/footer';
 import Project from './components/projects';
 
-import Link from "next/link";
-
 
 //imports
 
