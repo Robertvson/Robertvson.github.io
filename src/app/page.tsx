@@ -13,7 +13,7 @@ export default function homepage(){
   
 return(
 <>
-
+<body className="bg-slate-50">
 <div className="w-100 h-100">
   <Home/>
   <TechStack/>
@@ -28,7 +28,8 @@ return(
   </div>
   <FooterComp/>
 </div>
-
+</body>
 </>
+
 )
 }

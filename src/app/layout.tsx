@@ -9,6 +9,8 @@ const montserrat = Montserrat({
   subsets: ["latin"],
 });
 
+
+
 export const metadata: Metadata = {
   title: "Scott Robertson",
   description: "Generated with Next, My CV",
@@ -21,11 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={montserrat.variable}>
-      <body 
-        className="bg-stone-50"
-      >
         {children}
-      </body>
     </html>
   );
 }

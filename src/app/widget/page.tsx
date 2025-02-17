@@ -1,9 +1,10 @@
 "use client"
+import { motion } from "motion/react"
 
 export default function Widget(){
     return(
-        <>
-        <div className="bg-black pb-3">
+        <body className="bg-black">
+        <div className="bg-black pb-3 h-full">
             <div className="flex flex-row items-center w-full">
                 <div className="flex flex-row items-center w-full mt-6">
                     <h1 className="text-white w-3/4 mx-auto text-5xl tracking-widest">Widget & Co.</h1>
@@ -33,7 +34,7 @@ export default function Widget(){
             </div>
 
         </div>
-        </>
+        </body>
            
         
     )
