@@ -4,19 +4,23 @@ import Home from './components/heading';
 import TechStack from "./components/techstack";
 import ExtraSkills from "./components/extraskills";
 import FooterComp from './components/footer';
+import Project from './components/projects';
+
+import Link from "next/link";
+
 
 //imports
 
-
-
 export default function homepage(){
+  
 return(
 <>
 
-<div className="w-100% h-100">
+<div className="w-100 h-100">
   <Home/>
   <TechStack/>
-  <motion.div className= "flex bg-black w-100% h-64 z-0 mt-20"
+  <Project/>
+  <motion.div className= "flex bg-black w-100% h-64 z-0 mt-12"
   initial={{opacity: 0}}
   transition={{duration: 0.4, ease:'linear'}}
   whileInView={{opacity: 1}}
@@ -24,7 +28,7 @@ return(
   <div>
   <ExtraSkills/>
   </div>
-  <FooterComp></FooterComp>
+  <FooterComp/>
 </div>
 
 </>
