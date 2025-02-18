@@ -22,7 +22,7 @@ return(
   initial={{opacity: 0}}
   transition={{duration: 0.4, ease:'linear'}}
   whileInView={{opacity: 1}}
-  ><p className="text-center mx-auto my-auto text-white text-6xl">New Possibilites Await</p></motion.div>
+  ><p className="text-center mx-auto my-auto text-white text-6xl mont">New Possibilites Await</p></motion.div>
   <div>
   <ExtraSkills/>
   </div>

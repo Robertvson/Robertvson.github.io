@@ -17,7 +17,7 @@ const techstackdis = [
 export default function TechStack(){
 return(
     <>
-        <motion.h2 className='mt-10 text-center w-full'
+        <motion.h2 className='mt-10 text-center w-full mont'
         initial={{opacity: 0}}
         transition={{duration: 0.3, ease:'linear'}}
         animate={{opacity: 1}}
@@ -31,8 +31,8 @@ return(
                     transition={{duration: 0.3, ease:'linear'}}
                     animate={{opacity: 1}}
                     >
-                    <img alt='icon' className='h-10 w-10 mx-auto' src={item.icon}/>
-                    <p className='text-black p-2 text-center'>{item.name}</p>
+                    <img alt='icon' className='h-10 w-10 mx-auto mont' src={item.icon}/>
+                    <p className='text-black p-2 text-center mont'>{item.name}</p>
                 </motion.div>
             ))}
         </div>

@@ -11,14 +11,14 @@ export default function FooterComp(){
                 >
                 <div className="">
                         <div className="">
-                                <p className="stretch text-2xl text-white">Website by</p>
+                                <p className="stretch text-2xl text-white mont">Website by</p>
                         </div>
                         <div className="flex items-start">
-                                <div className="w-1/5 h-7"></div><p className="text-xl w-auto text-white">Scott Mitchell Robertson</p><div className="w-3/5 h-7"></div>
+                                <div className="w-1/5 h-7"></div><p className="text-xl w-auto text-white mont">Scott Mitchell Robertson</p><div className="w-3/5 h-7"></div>
                         </div>
                         <div>
-                                <p className="text-white text-end mr-8 text-sm">“The path to paradise begins in hell.”</p>
-                                <p className="text-white text-end mr-40 text-sm">―  Dante Alighieri</p>
+                                <p className="text-white text-end mr-8 text-sm mont">“The path to paradise begins in hell.”</p>
+                                <p className="text-white text-end mr-40 text-sm mont">―  Dante Alighieri</p>
                         </div>
                 </div>
                 </motion.div>

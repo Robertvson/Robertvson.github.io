@@ -11,7 +11,8 @@ export default {
     }, 
     extend: {
       fontFamily: {
-        montserrat: ['var(--font-Montserrat)', 'sans-serif']},
+        montserrat: ['var(--font-Montserrat)', 'sans-serif'],
+        instrument: ['var(--font-Instrument)', 'sans-serif']},
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

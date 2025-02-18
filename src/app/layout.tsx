@@ -1,20 +1,24 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
 import "./globals.css";
-
-
-
-const montserrat = Montserrat({
-  variable: "--font-Montserrat",
-  subsets: ["latin"],
-});
-
-
+import { Montserrat, Instrument_Sans } from 'next/font/google';
 
 export const metadata: Metadata = {
   title: "Scott Robertson",
   description: "Generated with Next, My CV",
 };
+
+const instrument = Instrument_Sans({
+  subsets: ['latin'],
+  variable: '--font-Instrument', 
+});
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-Montserrat', 
+});
+
+
+
 
 export default function RootLayout({
   children,
@@ -22,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={montserrat.variable}>
+    <html lang="en" className={`${montserrat.variable} ${instrument.variable}`}>
         {children}
     </html>
   );

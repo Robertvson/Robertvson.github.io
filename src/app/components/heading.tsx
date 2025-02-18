@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex flex-row items-center mt-3 flex-wrap">
 
       <motion.h1
-      className="custom-element"
+      className="custom-element mont"
       initial={{opacity: 0}}
       transition={{duration: 0.3, ease:'linear'}}
       animate={{opacity: 1}}
@@ -15,7 +15,7 @@ export default function Home() {
       >Scott Mitchell Robertson </motion.h1>
 
       <motion.h1
-      className="custom-element1"
+      className="custom-element1 mont"
       initial={{opacity: 0}}
       transition={{duration: 0.4, ease:'linear'}}
       animate={{opacity: 1}}
