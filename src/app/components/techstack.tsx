@@ -26,7 +26,7 @@ return(
         {techstackdis.map((item, index) => (
                 <motion.div
                     key={index}
-                    className="mx-2 my-2 bg-white px-6 py-2 rounded-xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow"
+                    className="mx-2 my-2 bg-white px-6 py-2 rounded-xl shadow-sm border border-stone-300 hover:shadow-md transition-shadow"
                     initial={{opacity: 0}}
                     transition={{duration: 0.3, ease:'linear'}}
                     animate={{opacity: 1}}

@@ -19,7 +19,7 @@ return(
         {extraskillsdis.map((item, index) => (
                 <motion.div
                     key={index}
-                    className="mont  mx-2 my-2 bg-white p-6 rounded-xl shadow-sm border border-stone-100 hover:shadow-md transition-shadow"
+                    className="mont  mx-2 my-2 bg-white p-6 rounded-xl shadow-sm border border-stone-300 hover:shadow-md transition-shadow"
                 >
                     <img alt= '' className='h-10 w-10 mx-auto mont' src={item.icon}/>
                     <p className='text-black p-2 text-center mont'>{item.name}</p>
